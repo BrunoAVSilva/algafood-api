@@ -1,4 +1,4 @@
-package com.example.algafoodapi.domain.model;
+package com.algaworks.algafood.domain.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -12,12 +12,15 @@ import lombok.EqualsAndHashCode;
 @Data
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Entity
-public class FormaPagamento {
+public class Permissao {
 
 	@EqualsAndHashCode.Include
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+	
+	@Column(name = "nome", nullable = false)
+	private String nome;
 	
 	@Column(name = "descricao", nullable = false)
 	private String descricao;

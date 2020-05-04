@@ -1,10 +1,12 @@
-package com.example.algafoodapi.domain.model;
+package com.algaworks.algafood.domain.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -12,7 +14,7 @@ import lombok.EqualsAndHashCode;
 @Data
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Entity
-public class Permissao {
+public class Cidade {
 
 	@EqualsAndHashCode.Include
 	@Id
@@ -22,6 +24,7 @@ public class Permissao {
 	@Column(name = "nome", nullable = false)
 	private String nome;
 	
-	@Column(name = "descricao", nullable = false)
-	private String descricao;
+	@ManyToOne
+	@JoinColumn(name = "estado_id", nullable = false)
+	private Estado estado;
 }

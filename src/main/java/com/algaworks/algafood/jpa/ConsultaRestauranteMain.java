@@ -1,4 +1,4 @@
-package com.example.algafoodapi.jpa;
+package com.algaworks.algafood.jpa;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ApplicationContext;
 
-import com.example.algafoodapi.AlgafoodApiApplication;
-import com.example.algafoodapi.domain.model.Restaurante;
-import com.example.algafoodapi.domain.repository.RestauranteRepository;
+import com.algaworks.algafood.AlgafoodApiApplication;
+import com.algaworks.algafood.domain.model.Restaurante;
+import com.algaworks.algafood.domain.repository.RestauranteRepository;
 
 public class ConsultaRestauranteMain {
 

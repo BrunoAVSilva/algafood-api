@@ -1,8 +1,8 @@
-package com.example.algafoodapi.domain.repository;
+package com.algaworks.algafood.domain.repository;
 
 import java.util.List;
 
-import com.example.algafoodapi.domain.model.Restaurante;
+import com.algaworks.algafood.domain.model.Restaurante;
 
 public interface RestauranteRepository {
 
