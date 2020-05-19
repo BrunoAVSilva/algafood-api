@@ -11,3 +11,5 @@ Aula Atual
 4.32. Desafio: implementando serviços REST de cidades e estados
 4.33. Analisando solução para atualização parcial de recursos com PATCH
 4.34. Finalizando a atualização parcial com a API de Reflections do Spring
+
+5.1. Implementando consultas JPQL em repositórios
