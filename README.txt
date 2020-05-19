@@ -13,3 +13,5 @@ Aula Atual
 4.34. Finalizando a atualização parcial com a API de Reflections do Spring
 
 5.1. Implementando consultas JPQL em repositórios
+5.3. Criando um repositório com Spring Data JPA (SDJ)
+5.4. Refatorando o código do projeto para usar o repositório do SDJ
