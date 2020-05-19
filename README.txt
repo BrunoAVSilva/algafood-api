@@ -16,3 +16,4 @@ Aula Atual
 5.3. Criando um repositório com Spring Data JPA (SDJ)
 5.4. Refatorando o código do projeto para usar o repositório do SDJ
 5.5. Desafio: refatorando todos os repositórios para usar SDJ
+5.6. Criando consultas com query methods
