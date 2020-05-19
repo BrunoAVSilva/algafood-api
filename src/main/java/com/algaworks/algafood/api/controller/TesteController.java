@@ -2,6 +2,7 @@ package com.algaworks.algafood.api.controller;
 
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -29,15 +30,30 @@ public class TesteController {
 		return cozinhaRepository.findByNomeContaining(nome);
 	}
 	
+	@GetMapping("/cozinhas/exists-nome")
+	public boolean cozinhasExists(@RequestParam("nome") String nome) {
+		return cozinhaRepository.existsByNome(nome);
+	}
+	
 	@GetMapping("/restaurantes/por-taxa-frete")
 	public List<Restaurante> restaurantesPorTaxaFrete(
 			@RequestParam("taxaIncial") BigDecimal taxaIncial, @RequestParam("taxaFinal") BigDecimal taxaFinal) {
-		return restauranteRepository.findByTaxaFreteBetween(taxaIncial, taxaFinal);
+		return restauranteRepository.queryByTaxaFreteBetween(taxaIncial, taxaFinal);
 	}
 	
 	@GetMapping("/restaurantes/por-nome")
 	public List<Restaurante> restaurantesPorNome(
 			@RequestParam("nome") String nome, @RequestParam("cozinhaId") Long cozinhaId) {
 		return restauranteRepository.findByNomeContainingAndCozinhaId(nome, cozinhaId);
+	}
+	
+	@GetMapping("/restaurantes/primeiro-por-nome")
+	public Optional<Restaurante> restaurantePorNome(@RequestParam("nome") String nome) {
+		return restauranteRepository.findFirstByNomeContaining(nome);
+	}
+	
+	@GetMapping("/restaurantes/top2-por-nome")
+	public List<Restaurante> restaurantesPorNome(@RequestParam("nome") String nome) {
+		return restauranteRepository.findTop2ByNomeContaining(nome);
 	}
 }
