@@ -18,7 +18,7 @@ public interface RestauranteRepository extends
 	public List<Restaurante> queryByTaxaFreteBetween(BigDecimal taxaIncial, BigDecimal taxaFinal);
 	
 	//@Query("from Restaurante where nome like %:nome% and cozinha.id = :id")
-	public List<Restaurante> conssultarPorNome(String nome, @Param("id") Long cozinha);
+	public List<Restaurante> consultarPorNome(String nome, @Param("id") Long cozinha);
 	
 	public List<Restaurante> findByNomeContainingAndCozinhaId(String nome, Long cozinhaId);
 	

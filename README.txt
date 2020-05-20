@@ -28,5 +28,5 @@ Aula Atual
 5.15. Tornando a consulta com Criteria API com filtros dinâmicos
 5.16. Conhecendo o uso do padrão Specifications (DDD) com SDJ
 5.17. Implementando Specifications com SDJ
-
-5.18
+5.18. Criando uma fábrica de Specifications
+5.19. Injetando o próprio repositório na implementação customizada e a anotação @Lazy
