@@ -22,5 +22,6 @@ Aula Atual
 5.9. Usando queries JPQL customizadas com @Query
 5.10. Externalizando consultas JPQL para um arquivo XML
 5.11. Implementando um repositório SDJ customizado
+5.12. Implementando uma consulta dinâmica com JPQL
 
 5.18
