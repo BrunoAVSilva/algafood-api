@@ -24,5 +24,6 @@ Aula Atual
 5.11. Implementando um repositório SDJ customizado
 5.12. Implementando uma consulta dinâmica com JPQL
 5.13. Implementando uma consulta simples com Criteria API
+5.14. Adicionando restrições na cláusula where com Criteria API
 
 5.18
