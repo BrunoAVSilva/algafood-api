@@ -21,5 +21,6 @@ Aula Atual
 5.8. Conhecendo os prefixos de query methods
 5.9. Usando queries JPQL customizadas com @Query
 5.10. Externalizando consultas JPQL para um arquivo XML
+5.11. Implementando um repositório SDJ customizado
 
 5.18
