@@ -30,3 +30,4 @@ Aula Atual
 5.17. Implementando Specifications com SDJ
 5.18. Criando uma fábrica de Specifications
 5.19. Injetando o próprio repositório na implementação customizada e a anotação @Lazy
+5.20. Estendendo o JpaRepository para customizar o repositório base
