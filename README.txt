@@ -19,3 +19,6 @@ Aula Atual
 5.6. Criando consultas com query methods
 5.7. Usando as keywords para definir critérios de query methods
 5.8. Conhecendo os prefixos de query methods
+5.9. Usando queries JPQL customizadas com @Query
+
+5.18
