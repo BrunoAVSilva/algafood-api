@@ -1,5 +1,8 @@
 package com.algaworks.algafood.api.controller;
 
+import static com.algaworks.algafood.infrastructure.repository.spec.RestauranteSpecs.comFreteGratis;
+import static com.algaworks.algafood.infrastructure.repository.spec.RestauranteSpecs.comNomeSemelhante;
+
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Optional;
@@ -41,6 +44,12 @@ public class TesteController {
 		return restauranteRepository.queryByTaxaFreteBetween(taxaIncial, taxaFinal);
 	}
 	
+	@GetMapping("/restaurantes/por-nome-taxa-frete")
+	public List<Restaurante> restaurantesPorNomeFrete(@RequestParam("nome") String nome,
+			@RequestParam("taxaIncial") BigDecimal taxaIncial, @RequestParam("taxaFinal") BigDecimal taxaFinal) {
+		return restauranteRepository.find(nome, taxaIncial, taxaFinal);
+	}
+	
 	@GetMapping("/restaurantes/por-nome")
 	public List<Restaurante> restaurantesPorNome(
 			@RequestParam("nome") String nome, @RequestParam("cozinhaId") Long cozinhaId) {
@@ -55,5 +64,13 @@ public class TesteController {
 	@GetMapping("/restaurantes/top2-por-nome")
 	public List<Restaurante> restaurantesPorNome(@RequestParam("nome") String nome) {
 		return restauranteRepository.findTop2ByNomeContaining(nome);
+	}
+	
+	@GetMapping("/restaurantes/com-frete-gratis")
+	public List<Restaurante> restaurantesComFreteGratis(@RequestParam("nome") String nome) {
+		//var comFreteGratis = new RestauranteComFreteGratisSpecification();
+		//var comNomeSemelhante = new RestauranteComNomeSemelhanteSpecification(nome);
+		
+		return restauranteRepository.findAll(comFreteGratis().and(comNomeSemelhante(nome)));
 	}
 }
