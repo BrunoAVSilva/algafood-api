@@ -33,3 +33,12 @@ Aula Atual
 5.20. Estendendo o JpaRepository para customizar o repositório base
 
 6.1. Mapeando relacionamento bidirecional com @OneToMany
+6.2. Mapeando relacionamento muitos-para-muitos com @ManyToMany
+
+
+
+
+
+
+
+
