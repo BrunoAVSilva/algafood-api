@@ -35,11 +35,6 @@ Aula Atual
 6.1. Mapeando relacionamento bidirecional com @OneToMany
 6.2. Mapeando relacionamento muitos-para-muitos com @ManyToMany
 6.3. Analisando o impacto do relacionamento muitos-para-muitos na REST API
-
-
-
-
-
-
+6.4. Mapeando classes incorporáveis com @Embedded e @Embeddable
 
 
