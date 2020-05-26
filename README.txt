@@ -36,5 +36,5 @@ Aula Atual
 6.2. Mapeando relacionamento muitos-para-muitos com @ManyToMany
 6.3. Analisando o impacto do relacionamento muitos-para-muitos na REST API
 6.4. Mapeando classes incorporáveis com @Embedded e @Embeddable
-
+6.5. Testando e analisando o impacto da incorporação de classe na REST API
 
