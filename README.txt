@@ -39,3 +39,4 @@ Aula Atual
 6.5. Testando e analisando o impacto da incorporação de classe na REST API
 6.6. Mapeando propriedades com @CreationTimestamp e @UpdateTimestamp
 6.7. Desafio: mapeando relacionamento muitos-para-um
+6.8. Desafio: mapeando relacionamento um-para-muitos
