@@ -38,3 +38,4 @@ Aula Atual
 6.4. Mapeando classes incorporáveis com @Embedded e @Embeddable
 6.5. Testando e analisando o impacto da incorporação de classe na REST API
 6.6. Mapeando propriedades com @CreationTimestamp e @UpdateTimestamp
+6.7. Desafio: mapeando relacionamento muitos-para-um
