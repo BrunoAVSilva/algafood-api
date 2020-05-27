@@ -44,3 +44,4 @@ Aula Atual
 6.10. Entendendo o Eager Loading
 6.11. Entendendo o Lazy Loading
 6.12. Alterando a estratégia de fetching para Lazy Loading
+6.13. Alterando a estratégia de fetching para Eager Loading
