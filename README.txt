@@ -41,3 +41,6 @@ Aula Atual
 6.7. Desafio: mapeando relacionamento muitos-para-um
 6.8. Desafio: mapeando relacionamento um-para-muitos
 6.9. Desafio: mapeando relacionamentos muitos-para-muitos
+6.10. Entendendo o Eager Loading
+6.11. Entendendo o Lazy Loading
+6.12. Alterando a estratégia de fetching para Lazy Loading
