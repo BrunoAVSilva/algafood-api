@@ -46,3 +46,10 @@ Aula Atual
 6.12. Alterando a estratégia de fetching para Lazy Loading
 6.13. Alterando a estratégia de fetching para Eager Loading
 6.14. Resolvendo o Problema do N+1 com fetch join na JPQL
+
+7.1. Entendendo o funcionamento de um pool de conexões
+7.2. Conhecendo o Hikari: a solução padrão de pool de conexões no Spring Boot
+7.3. Configurando o pool de conexões do Hikari
+7.4. Schema generation em produção não é uma boa prática
+
+
