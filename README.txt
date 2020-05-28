@@ -51,5 +51,7 @@ Aula Atual
 7.2. Conhecendo o Hikari: a solução padrão de pool de conexões no Spring Boot
 7.3. Configurando o pool de conexões do Hikari
 7.4. Schema generation em produção não é uma boa prática
+7.5. Flyway: ferramenta de versionamento de schemas de banco de dados
+7.6. Adicionando o Flyway no projeto e criando a primeira migração
 
 
