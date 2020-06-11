@@ -54,4 +54,4 @@ Aula Atual
 7.5. Flyway: ferramenta de versionamento de schemas de banco de dados
 7.6. Adicionando o Flyway no projeto e criando a primeira migração
 7.7. Evoluindo o banco de dados com novas migrações
-
+7.8. Criando migrações complexas com remanejamento de dados
