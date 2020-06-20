@@ -58,5 +58,5 @@ Aula Atual
 7.9. Criando migração a partir de DDL gerado por schema generation
 7.10. Adicionando dados de testes com callback do Flyway
 7.11. Reparando migrações com erros
-
+7.12. Desafio: Criando migrações e mapeando as entidades Pedido e ItemPedido
 
