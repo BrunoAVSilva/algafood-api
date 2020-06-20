@@ -57,6 +57,6 @@ Aula Atual
 7.8. Criando migrações complexas com remanejamento de dados
 7.9. Criando migração a partir de DDL gerado por schema generation
 7.10. Adicionando dados de testes com callback do Flyway
-
+7.11. Reparando migrações com erros
 
 
