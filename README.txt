@@ -60,3 +60,4 @@ Aula Atual
 7.11. Reparando migrações com erros
 7.12. Desafio: Criando migrações e mapeando as entidades Pedido e ItemPedido
 
+8.2. Lançando exceções customizadas anotadas com @ResponseStatus
