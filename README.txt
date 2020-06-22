@@ -61,3 +61,4 @@ Aula Atual
 7.12. Desafio: Criando migrações e mapeando as entidades Pedido e ItemPedido
 
 8.2. Lançando exceções customizadas anotadas com @ResponseStatus
+8.3. Lançando exceções do tipo ResponseStatusException
