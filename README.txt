@@ -63,4 +63,4 @@ Aula Atual
 8.2. Lançando exceções customizadas anotadas com @ResponseStatus
 8.3. Lançando exceções do tipo ResponseStatusException
 8.4. Estendendo ResponseStatusException
-
+8.5. Simplificando o código com o uso de @ResponseStatus em exceptions
