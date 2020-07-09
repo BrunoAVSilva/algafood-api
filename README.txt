@@ -69,6 +69,6 @@ Aula Atual
 8.8. Criando a exception NegocioException
 8.9. Desafio: usando a exception NegocioException
 8.10. Afinando a granularidade e definindo a hierarquia das exceptions de negócios
-
+8.11. Desafio: lançando exceptions de granularidade fina
 
 
