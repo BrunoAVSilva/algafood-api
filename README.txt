@@ -68,3 +68,7 @@ Aula Atual
 8.7. Analisando os impactos da refatoração
 8.8. Criando a exception NegocioException
 8.9. Desafio: usando a exception NegocioException
+8.10. Afinando a granularidade e definindo a hierarquia das exceptions de negócios
+
+
+
