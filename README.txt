@@ -67,4 +67,4 @@ Aula Atual
 8.6. Desafio: refatorando os serviços REST
 8.7. Analisando os impactos da refatoração
 8.8. Criando a exception NegocioException
-
+8.9. Desafio: usando a exception NegocioException
