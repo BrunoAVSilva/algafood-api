@@ -28,10 +28,6 @@ public class CadastroCidadeService {
 
 		Estado estado = cadastroEstado.buscarOuFalhar(estadoId);
 
-//	Estado estado = estadoRepository.findById(estadoId)
-//		.orElseThrow(() -> new EntidadeNaoEncontradaException(
-//				String.format("Não existe cadastro de estado com código %d", estadoId)));
-
 		cidade.setEstado(estado);
 
 		return cidadeRepository.save(cidade);
@@ -43,7 +39,6 @@ public class CadastroCidadeService {
 
 		} catch (EmptyResultDataAccessException e) {
 			throw new EntidadeNaoEncontradaException(String.format(MSG_CIDADE_NAO_ENCONTRADA, cidadeId));
-
 		} catch (DataIntegrityViolationException e) {
 			throw new EntidadeEmUsoException(String.format(MSG_CIDADE_EM_USO, cidadeId));
 		}

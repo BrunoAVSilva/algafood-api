@@ -65,6 +65,6 @@ Aula Atual
 8.4. Estendendo ResponseStatusException
 8.5. Simplificando o código com o uso de @ResponseStatus em exceptions
 8.6. Desafio: refatorando os serviços REST
-
-
+8.7. Analisando os impactos da refatoração
+8.8. Criando a exception NegocioException
 
