@@ -73,4 +73,4 @@ Aula Atual
 8.12. Tratando exceções em nível de controlador com @ExceptionHandler
 8.13. Tratando exceções globais com @ExceptionHandler e @ControllerAdvice
 8.14. Desafio: implementando exception handler
-
+8.15. Criando um exception handler global com ResponseEntityExceptionHandler
