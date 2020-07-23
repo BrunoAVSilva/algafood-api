@@ -71,4 +71,6 @@ Aula Atual
 8.10. Afinando a granularidade e definindo a hierarquia das exceptions de negócios
 8.11. Desafio: lançando exceptions de granularidade fina
 8.12. Tratando exceções em nível de controlador com @ExceptionHandler
+8.13. Tratando exceções globais com @ExceptionHandler e @ControllerAdvice
+8.14. Desafio: implementando exception handler
 
