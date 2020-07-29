@@ -87,3 +87,4 @@ Aula Atual
 8.26. Desafio: tratando a exceção NoHandlerFoundException
 8.27. Desafio: tratando outras exceções não capturadas
 8.28. Estendendo o formato do problema para adicionar novas propriedades
+8.29. Desafio: estendendo o formato do problema
