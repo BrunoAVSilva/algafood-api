@@ -82,4 +82,5 @@ Aula Atual
 8.21. Tratando a exception InvalidFormatException na desserialização
 8.22. Habilitando erros na desserialização de propriedades inexistentes ou ignoradas
 8.23. Desafio: tratando a PropertyBindingException na desserialização
+8.24. Lançando exception de desserialização na atualização parcial (PATCH)
 
