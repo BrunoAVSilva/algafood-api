@@ -77,4 +77,4 @@ Aula Atual
 8.16. Customizando o corpo da resposta padrão de ResponseEntityExceptionHandler
 8.17. Conhecendo a RFC 7807 (Problem Details for HTTP APIs)
 8.18. Padronizando o formato de problemas no corpo de 8.18. Padronizando o formato de problemas no corpo de respostas com a RFC 7807respostas com a RFC 7807
-
+8.19. Desafio: usando o formato de problemas no corpo de respostas
