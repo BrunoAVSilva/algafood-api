@@ -80,5 +80,6 @@ Aula Atual
 8.19. Desafio: usando o formato de problemas no corpo de respostas
 8.20. Customizando exception handlers de ResponseEntityExceptionHandler
 8.21. Tratando a exception InvalidFormatException na desserialização
+8.22. Habilitando erros na desserialização de propriedades inexistentes ou ignoradas
 
 
