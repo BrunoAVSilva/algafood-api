@@ -79,3 +79,6 @@ Aula Atual
 8.18. Padronizando o formato de problemas no corpo de 8.18. Padronizando o formato de problemas no corpo de respostas com a RFC 7807respostas com a RFC 7807
 8.19. Desafio: usando o formato de problemas no corpo de respostas
 8.20. Customizando exception handlers de ResponseEntityExceptionHandler
+8.21. Tratando a exception InvalidFormatException na desserialização
+
+
