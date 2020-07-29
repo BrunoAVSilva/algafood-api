@@ -86,3 +86,4 @@ Aula Atual
 8.25. Desafio: tratando exception de parâmetro de URL inválido
 8.26. Desafio: tratando a exceção NoHandlerFoundException
 8.27. Desafio: tratando outras exceções não capturadas
+8.28. Estendendo o formato do problema para adicionar novas propriedades
