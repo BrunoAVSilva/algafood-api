@@ -96,4 +96,4 @@ Aula Atual
 9.5. Conhecendo e adicionando mais constraints de validação no modelo
 9.6. Validando as associações de uma entidade em cascata
 9.7. Agrupando e restringindo constraints que devem ser usadas na validação
-
+9.8. Convertendo grupos de constraints para validação em cascata com @ConvertGroup
