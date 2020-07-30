@@ -88,3 +88,7 @@ Aula Atual
 8.27. Desafio: tratando outras exceções não capturadas
 8.28. Estendendo o formato do problema para adicionar novas propriedades
 8.29. Desafio: estendendo o formato do problema
+
+9.1. Validação do modelo com Bean Validation
+9.2. Adicionando constraints e validando no controller com @Valid
+
