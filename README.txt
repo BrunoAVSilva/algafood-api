@@ -91,4 +91,5 @@ Aula Atual
 
 9.1. Validação do modelo com Bean Validation
 9.2. Adicionando constraints e validando no controller com @Valid
-
+9.3. Desafio: tratando exception de violação de constraints de validação
+9.4. Estendendo o Problem Details para adicionar as propriedades com constraints violadas
