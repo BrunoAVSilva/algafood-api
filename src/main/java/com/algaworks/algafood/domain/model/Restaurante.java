@@ -42,13 +42,10 @@ public class Restaurante {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	//@NotNull
-	//@NotEmpty
-	@NotBlank
+	@NotBlank(message = "Nome é obrigatório")
 	@Column(name = "nome", nullable = false)
 	private String nome;
 
-	//@DecimalMin("0")
 	@PositiveOrZero
 	@Column(name = "taxa_frete", nullable = false)
 	private BigDecimal taxaFrete;

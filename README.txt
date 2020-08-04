@@ -98,3 +98,6 @@ Aula Atual
 9.7. Agrupando e restringindo constraints que devem ser usadas na validação
 9.8. Convertendo grupos de constraints para validação em cascata com @ConvertGroup
 9.9. Desafio: adicionando constraints de validação no modelo
+9.10. Customizando mensagens de validação na anotação da constraint
+9.11. Customizando e resolvendo mensagens de validação globais em Resource Bundle
+
