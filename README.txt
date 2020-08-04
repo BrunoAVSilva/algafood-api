@@ -100,4 +100,4 @@ Aula Atual
 9.9. Desafio: adicionando constraints de validação no modelo
 9.10. Customizando mensagens de validação na anotação da constraint
 9.11. Customizando e resolvendo mensagens de validação globais em Resource Bundle
-
+9.12. Desafio: customizando mensagens de validação
