@@ -42,7 +42,6 @@ public class Restaurante {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	//Teste rebase
 	@NotBlank
 	@Column(name = "nome", nullable = false)
 	private String nome;
