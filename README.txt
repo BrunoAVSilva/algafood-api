@@ -106,3 +106,4 @@ Aula Atual
 9.15. Criando constraints de validação customizadas usando composição
 9.16. Criando constraints de validação customizadas com implementação de ConstraintValidator
 9.17. Criando constraints de validação customizadas em nível de classe
+9.18. Ajustando Exception Handler para adicionar mensagens de validação em nível de classe
