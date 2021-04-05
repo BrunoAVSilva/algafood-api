@@ -105,3 +105,4 @@ Aula Atual
 9.14. Usando o Resource Bundle do Spring como Resource Bundle do Bean Validation
 9.15. Criando constraints de validação customizadas usando composição
 9.16. Criando constraints de validação customizadas com implementação de ConstraintValidator
+9.17. Criando constraints de validação customizadas em nível de classe
