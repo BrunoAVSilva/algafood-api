@@ -107,3 +107,5 @@ Aula Atual
 9.16. Criando constraints de validação customizadas com implementação de ConstraintValidator
 9.17. Criando constraints de validação customizadas em nível de classe
 9.18. Ajustando Exception Handler para adicionar mensagens de validação em nível de classe
+9.19. Executando processo de validação programaticamente
+9.20. Desafio: tratando a exception customizada de validações programáticas
